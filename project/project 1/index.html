@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title" >Sports Survey Form</h1>
+        <p id="description">This form is used to find out the favorite sports of Fasilkom UI students</p>
+    </header>
+
+    <main>
+        <form id="survey-form">
+            <div class="general">
+                <label id="name-label" for="name">Full Name<span id="arterisk">*</span></label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name" required/>
+            </div>
+
+            <div class="general">
+                <label id="email-label" for="email">Email<span id="arterisk">*</span></label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address" required/>
+            </div>
+
+            <div class="general">
+                <label id="number-label" for="number">Age</label>
+                <input type="number" name="age" id="number" min="14" max="99" class="form-control" placeholder="Age" />
+            </div>
+
+            <div class="particular">
+                <p>What is your major?</p>
+                <div class="row">
+                    <div class="item">
+                        <input id="major1" name="major" value="CS" type="radio" class="input-radio"/>
+                        <label for="major1" class="content">Computer Science</label>
+                    </div>
+
+                    <div class="item">
+                        <input id="major2" name="major" value="SI" type="radio" class="input-radio"/>
+                        <label for="major2" class="content">System Information</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="particular">
+                <p>What generation are you?</p>
+                <select id="dropdown" name="generation" class="form-control" required>
+                    <option disabled selected value>Select your generation</option>
+                    <option value="tarung">Tarung 2017</option>
+                    <option value="quanta">Quanta 2018</option>
+                    <option value="maung">Maung 2019</option>
+                    <option value="chronos">Chronos 2020</option>
+                </select>
+            </div>
+
+            <div class="particular">
+                <p>What is your gender?</p>
+                <div class="row">
+                    <div class="item">
+                        <input id="gender1" name="gender" value="male" type="radio" class="input-radio"/>
+                        <label for="gender1" class="content">👨 Male</label>
+                    </div>
+
+                    <div class="item">
+                        <input id="gender2" name="gender" value="female" type="radio" class="input-radio"/>
+                        <label for="gender2" class="content">👩 Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="particular one">
+                <p>What is your favorite sports?</p>
+                <div class="flex-row">
+                    <div>
+                        <div class="item">
+                            <input id="basketball" name="sport" value="basketball" type="checkbox" class="input-checkbox" />
+                            <label for="basketball">🏀 Basketball</label>
+                        </div>
+
+                        <div class="item"> 
+                            <input id="soccer" name="sport" value="soccer" type="checkbox" class="input-checkbox" />
+                            <label for="soccer">⚽ Soccer</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="volleyball" name="sport" value="volleyball" type="checkbox" class="input-checkbox" />
+                            <label for="volleyball">🏐 Volleyball</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="badminton" name="sport" value="badminton" type="checkbox" class="input-checkbox" />
+                            <label for="badminton">🏸 Badminton</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="swimming" name="sport" value="swimming" type="checkbox" class="input-checkbox" />
+                            <label for="swimming">🏊 Swimming</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="running" name="sport" value="running" type="checkbox" class="input-checkbox" />
+                            <label for="running">🏃 Running</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="chess" name="sport" value="chess" type="checkbox" class="input-checkbox" />
+                            <label for="chess">♟️ Chess</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="tableTennis" name="sport" value="tabletennis" type="checkbox" class="input-checkbox" />
+                            <label for="tableTennis">🏓 Table Tennis</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="tennis" name="sport" value="tennis" type="checkbox" class="input-checkbox" />
+                            <label for="tennis">🎾 Tennis</label>
+                        </div>
+
+                        <div class="item">
+                            <input id="archery" name="sport" value="archery" type="checkbox" class="input-checkbox" />
+                            <label for="archery">🏹 Archery</label>
+                        </div>
+                    </div>
+
+                    <div id="column2">
+                        <div class="item">
+                            <input id="hockey" name="sport" value="hockey" type="checkbox" class="input-checkbox" />
+                            <label for="hockey">🏑 Field Hockey</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="fencing" name="sport" value="fencing" type="checkbox" class="input-checkbox" />
+                            <label for="fencing">🤺 Fencing</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="horseRiding" name="sport" value="horseRiding" type="checkbox" class="input-checkbox" />
+                            <label for="horseRiding">🐎 Horse Riding</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="sepakTakraw" name="sport" value="sepakTakraw" type="checkbox" class="input-checkbox" />
+                            <label for="sepakTakraw">🧶 Sepak Takraw</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="cycling" name="sport" value="cycling" type="checkbox" class="input-checkbox" />
+                            <label for="cycling">🚴 Cycling</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="golf" name="sport" value="golf" type="checkbox" class="input-checkbox" />
+                            <label for="golf">🏌️ Golf</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="waterPolo" name="sport" value="waterPolo" type="checkbox" class="input-checkbox" />
+                            <label for="waterPolo">🤽 Water Polo</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="skyDiving" name="sport" value="skyDiving" type="checkbox" class="input-checkbox" />
+                            <label for="skyDiving">🪂 Sky Diving</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="karate" name="sport" value="karate" type="checkbox" class="input-checkbox" />
+                            <label for="karate">🥋 Karate</label>
+                        </div>
+                        
+                        <div class="item">
+                            <input id="esports" name="sport" value="esports" type="checkbox" class="input-checkbox" />
+                            <label for="esports">🎮 E-sports</label>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="form-group">
+                <p>Do you suggest any other sport?</p>
+                <textarea id="suggestion" class="input-textarea" name="suggestion" placeholder="Enter your suggestion here..."></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h2>Thank you for taking the time to fill out this form</h2>
+    </footer>
+</body>
+</html>
