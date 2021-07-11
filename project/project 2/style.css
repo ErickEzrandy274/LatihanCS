@@ -168,8 +168,9 @@ nav ul li a:hover {
 .text-bottom, .text-top-five { font-size:x-large; font-weight: bolder;}
 .main-text { font-size: large; font-weight: bolder;}
 
-.box-one::after, .circle-5900::after, .circle-volume::after { left: -17px;}
-.one::after { top: -15px; left: -7px;}
+.box-one::after, .circle-volume::after { left: -17px;}
+.circle-5900::after {left: -23px;}
+.one::after { top: -15px; left: -17px;}
 .subtitle { font-size: 20px;}
 .text-top-three { padding: 23px 0 0 15px;}
 .text-top-four { padding: 23px 0 0 25px;}
