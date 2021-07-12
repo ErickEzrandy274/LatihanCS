@@ -39,7 +39,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 17px 12px;
+    padding: 19px 12px;
 }
 
 nav ul li:hover {
@@ -169,34 +169,36 @@ nav ul li a:hover {
 .main-text { font-size: large; font-weight: bolder;}
 
 .box-one::after, .circle-volume::after { left: -17px;}
-.circle-5900::after {left: -23px;}
-.one::after { top: -15px; left: -17px;}
+.circle-5900::after {left: -35px;}
+.one::after { top: -15px; left: -30px;}
 .subtitle { font-size: 20px;}
 .text-top-three { padding: 23px 0 0 15px;}
 .text-top-four { padding: 23px 0 0 25px;}
 .text-bottom-three { padding-left: 15px;}
 .text-bottom-four { padding-left: 25px;}
 .three { padding: 6px 0 0 10px;}
-.four { padding: 3px 0 0 20px;}
+.four { padding: 7px 0 0 20px;}
 
 #audio {
     background: linear-gradient(-135deg,#602080,#202060,#202040,#160F30);
 }
 
-.five::after {left: 10px;}
+.five::after {left: 15px;}
 .six::after {left: -12px; top: 22px;}
-.text-bottom-six { padding: 75px 0 64px 0}
+.text-bottom-six { padding: 80px 0 64px 0}
 
 #battery {
     background: linear-gradient(180deg,#BBE1FA,#3282B8,#0F4C75,#1B262C, black);
 }
 
-.seven::after {left: -25px;}
+.seven::after {left: -35px;}
 .text-top-five, .text-bottom-seven, .text-bottom-eigth { 
     font-size: xx-large; 
     font-weight: bolder;
     padding: 0 0 57px;
 }
+
+.text-top-five {padding: 10px 0 57px;}
 
 .text-top-seven, .text-top-eigth {
     font-size: x-large;
@@ -210,8 +212,8 @@ nav ul li a:hover {
 }
 
 .text-bottom-eigth{padding: 0 0 36px 5px;}
-.eight::after {left: -10px;}
-.nine::after {left: -20px;}
+.eight::after {left: -20px;}
+.nine::after {left: -5px;}
 
 #more {background: black;}
 #more-frame {width: 50%;}
