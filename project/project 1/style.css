@@ -198,3 +198,8 @@ footer {
     #column2 {margin-left: 15px;}
     .input-checkbox {margin-left: 5px;}
 }
+
+@media screen and (max-width: 400px) {
+  #survey-form {padding: 15px;}
+
+}
