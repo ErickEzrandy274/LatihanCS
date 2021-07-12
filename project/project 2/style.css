@@ -183,8 +183,8 @@ nav ul li a:hover {
     background: linear-gradient(-135deg,#602080,#202060,#202040,#160F30);
 }
 
-.five::after {left: 20px;}
-.six::after {left: -9px; top: 22px;}
+.five::after {left: 25px;}
+.six::after {left: -5px; top: 22px;}
 .text-bottom-six { padding: 80px 0 64px 0}
 
 #battery {
